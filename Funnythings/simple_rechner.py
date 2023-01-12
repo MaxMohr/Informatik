@@ -31,6 +31,20 @@ else:
 print(f"Dein Ergebnis lautet: {ergebnis}")
 
 
+# TODO: funktionsfähig machen
+again = input(print("Neue Rechnung starten? (Y/N)"))
+if again=="Y":
+    def repeat_from_line():
+        import inspect
+        frame = inspect.currentframe()
+        lines = inspect.getframeinfo(frame).code_context
+        for line in lines[4:]:
+            exec(line)
+
+else:
+    print()
+    print("Taschenrechner wurde beendet!")
+
 '''
 Nur addieren noch einfacher
 

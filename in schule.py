@@ -1,3 +1,6 @@
+'''
+Definieren und anschlüssige Ausgabe einer/mehrerer Variablen
+'''
 firstname = "Max"
 lastname = "Mohr"
 

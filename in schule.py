@@ -1,0 +1,1 @@
+print("Heute ist ein schöner Tag. Mein Name ist Max Mohr")

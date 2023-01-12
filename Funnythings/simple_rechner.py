@@ -1,12 +1,16 @@
 print("Taschenrechner erfolgreich gestartet!")
 print()
 
-
+# Rechenart wird erfragt
 calculation = input(print("Bitte wähle die Rechenart (+, -, :, *, ^)"))
 print()
+
+# Zahlen werden erfragt
 a = int(input("Was ist deine erste Zahl? "))
 b = int(input("Was ist deine zweite Zahl? "))
 print()
+
+# Zahlen werden überprüft und ausgerechnet
 if calculation=="+":
     ergebnis=a+b
 elif calculation=="-":
@@ -23,6 +27,7 @@ elif calculation=="^":
 else:
     ergebnis=f"Ungültiges Rechenzeichen benutzt: ({calculation})!"
 
+# Ergebnis wird ausgegeben
 print(f"Dein Ergebnis lautet: {ergebnis}")
 
 

@@ -35,10 +35,4 @@ for x in potenzieren:
     print(f"2^{x} = {2 ** x}")
 print()
 
-print("Mit eigenen Zahlen rechnen: (+)")
-a = input(print("Was ist deine erste Zahl? "))
-b = input(print("Was ist deine zweite Zahl? "))
-print()
-print(f"Dein Ergebnis lautet: {a + b}")
-print()
 print("Danke für eure Aufmerksamkeit!")

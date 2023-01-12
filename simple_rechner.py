@@ -12,7 +12,10 @@ if calculation=="+":
 elif calculation=="-":
     ergebnis=a-b
 elif calculation==":":
-    ergebnis=a/b
+    if b==0:
+        ergebnis="Fehler! Division durch 0 nicht möglich!"
+    else:
+        ergebnis=a/b
 elif calculation=="*":
     ergebnis=a*b
 elif calculation=="^":
@@ -22,12 +25,14 @@ else:
 
 print(f"Dein Ergebnis lautet: {ergebnis}")
 
-# print("Potenzieren:")
-# potenzieren = range(1, 10)
-# for x in potenzieren:
-#    print(f"2^{x} = {2 ** x}")
-# print()
-#
-# print("Mit eigenen Zahlen rechnen: (+)")
-# print()
-# print("Danke für eure Aufmerksamkeit!")
+
+'''
+Nur addieren noch einfacher
+
+def add(num1, num2):
+print(f"{num1} + {num2} = {num1 + num2}")
+
+a = int(input("Gib die 1. Zahl ein"))
+b = int(input("Gib die 2. Zahl ein"))
+add(a, b)
+'''

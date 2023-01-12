@@ -1,12 +1,10 @@
-'''
-Definition der Variablen
-'''
+# Definition der Variablen
+
 firstname = "Max"
 lastname = "Mohr"
-'''oder'''
+# oder
 num1 = 1
 
-'''
-Print- mit f-String für Variablen unter Anführungszeichen
-'''
+# Print- mit f-String für Variablen unter Anführungszeichen
+
 print(f"Heute ist ein schöner Tag. Mein Name ist {firstname} {lastname}. Und meine Lieblingszahl ist {num1}")

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a0ef5ed-18d1-4e7a-b572-de8025df7626" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Probieren/random-code_generator(4dig).py" afterDir="false" />
-    </list>
+    <list default="true" id="3a0ef5ed-18d1-4e7a-b572-de8025df7626" name="Changes" comment="Probieren hinzugefügt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +49,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673646385540</updated>
     </task>
+    <task id="LOCAL-00001" summary="Probieren hinzugefügt">
+      <created>1673648164220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673648164220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -63,5 +69,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Probieren hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Probieren hinzugefügt" />
   </component>
 </project>

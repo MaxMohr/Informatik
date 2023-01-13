@@ -6,4 +6,4 @@ while True:
     n3 = random.randint(0, 9)
     n4 = random.randint(0, 9)
     print(f"Randomcode: {n1}{n2}{n3}{n4}")
-x += 1
+    x += 1

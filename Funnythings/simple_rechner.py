@@ -1,50 +1,47 @@
+import time
+
 print("Taschenrechner erfolgreich gestartet!")
 print()
-
-# Rechenart wird erfragt
-calculation = input(print("Bitte wähle die Rechenart (+, -, :, *, ^)"))
-print()
-
-# Zahlen werden erfragt
-a = int(input("Was ist deine erste Zahl? "))
-b = int(input("Was ist deine zweite Zahl? "))
-print()
-
-# Zahlen werden überprüft und ausgerechnet
-if calculation=="+":
-    ergebnis=a+b
-elif calculation=="-":
-    ergebnis=a-b
-elif calculation==":":
-    if b==0:
-        ergebnis="Fehler! Division durch 0 nicht möglich!"
-    else:
-        ergebnis=a/b
-elif calculation=="*":
-    ergebnis=a*b
-elif calculation=="^":
-    ergebnis=a**b
-else:
-    ergebnis=f"Ungültiges Rechenzeichen benutzt: ({calculation})!"
-
-# Ergebnis wird ausgegeben
-print(f"Dein Ergebnis lautet: {ergebnis}")
-
-
-# TODO: funktionsfähig machen
-again = input(print("Neue Rechnung starten? (Y/N)"))
-if again=="Y":
-    def repeat_from_line():
-        import inspect
-        frame = inspect.currentframe()
-        lines = inspect.getframeinfo(frame).code_context
-        for line in lines[4:]:
-            exec(line)
-
-else:
+x = 1
+while True:
+    # Rechenart wird erfragt
+    calculation = input(print("Bitte wähle die Rechenart (+, -, :, *, ^)"))
     print()
-    print("Taschenrechner wurde beendet!")
 
+    # Zahlen werden erfragt
+    a = int(input("Was ist deine erste Zahl? "))
+    b = int(input("Was ist deine zweite Zahl? "))
+    print()
+
+    # Zahlen werden überprüft und ausgerechnet
+    if calculation=="+":
+        ergebnis=a+b
+    elif calculation=="-":
+        ergebnis=a-b
+    elif calculation==":":
+        if b==0:
+            ergebnis="Fehler! Division durch 0 nicht möglich!"
+        else:
+            ergebnis=a/b
+    elif calculation=="*":
+        ergebnis=a*b
+    elif calculation=="^":
+        ergebnis=a**b
+    else:
+        ergebnis=f"Ungültiges Rechenzeichen benutzt: ({calculation})!"
+
+    # Ergebnis wird ausgegeben
+    print(f"Dein Ergebnis lautet: {ergebnis}")
+    print()
+    restart = int(input("Schreibe 1 um neuzustarten! "))
+    if restart==1:
+        for y in range(10):
+            print()
+        print("Rechner startet neu!")
+        time.sleep(1)
+        x += 1
+    else:
+        break
 '''
 Nur addieren noch einfacher
 

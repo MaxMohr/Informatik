@@ -20,6 +20,12 @@ while True:
     if input1==number:
         print()
         print("Super! Beim ersten Versuch ")
+        time.sleep(3)
+        for y in range(10):
+            print()
+        print("Spiel wird neugestartet!")
+        print()
+        x += 1
 
     elif input1!=number:
         print()
@@ -28,6 +34,12 @@ while True:
         if input2==number:
             print()
             print("Gut gemacht! Beim 2. Versuch ")
+            time.sleep(3)
+            for y in range(10):
+                print()
+            print("Spiel wird neugestartet!")
+            print()
+            x += 1
 
         elif input2!=number:
             print()
@@ -36,20 +48,20 @@ while True:
             if input3==number:
                 print()
                 print("Bravo. Gerade noch geschafft! ")
+                time.sleep(3)
+                for y in range(10):
+                    print()
+                print("Spiel wird neugestartet!")
+                print()
+                x += 1
+
 
             elif input3!=number:
                 print()
                 print(f"Auch diese Zahl ist leider falsch! Die Zahl war: {number}")
                 time.sleep(3)
-                print()
-                print()
-                print()
-                print()
-                print()
-                print()
-                print()
-                print()
-                print()
+                for y in range(10):
+                    print()
                 print("Spiel wird neugestartet!")
                 print()
     x+=1

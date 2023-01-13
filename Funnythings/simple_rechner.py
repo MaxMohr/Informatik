@@ -38,7 +38,7 @@ while True:
         for y in range(10):
             print()
         print("Rechner startet neu!")
-        time.sleep(1)
+        time.sleep(0.5)
         x += 1
     else:
         break

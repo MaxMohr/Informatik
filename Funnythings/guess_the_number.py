@@ -1,17 +1,17 @@
 import random
 import time
 print()
-print(""
-      "Guess the number wurde erfolgreich gestartet!"
-      "Du hast 3 Versuche die Zahl zu erraten."
-      "")
+print("""
+Guess the number wurde erfolgreich gestartet! 
+Du hast 3 Versuche die Zahl zu erraten.
+      """)
 print()
 
 x = 1
 while True:
 
     randomrange = int(input("""Bitte gib die Range der random Zahlen ein! 
-(Bei 20 gil, dass Zahlen von 0-20 Die Lösung sein können) """))
+(Bei 20 gilt, dass Zahlen von 0-20 Die Lösung sein können) """))
     print()
 
     number = random.randrange(randomrange +1)
@@ -21,7 +21,7 @@ while True:
         print()
         print("Super! Beim ersten Versuch ")
         time.sleep(3)
-        for y in range(10):
+        for y in range(3):
             print()
         print("Spiel wird neugestartet!")
         print()
@@ -35,7 +35,7 @@ while True:
             print()
             print("Gut gemacht! Beim 2. Versuch ")
             time.sleep(3)
-            for y in range(10):
+            for y in range(3):
                 print()
             print("Spiel wird neugestartet!")
             print()
@@ -49,7 +49,7 @@ while True:
                 print()
                 print("Bravo. Gerade noch geschafft! ")
                 time.sleep(3)
-                for y in range(10):
+                for y in range(3):
                     print()
                 print("Spiel wird neugestartet!")
                 print()
@@ -60,7 +60,7 @@ while True:
                 print()
                 print(f"Auch diese Zahl ist leider falsch! Die Zahl war: {number}")
                 time.sleep(3)
-                for y in range(10):
+                for y in range(3):
                     print()
                 print("Spiel wird neugestartet!")
                 print()

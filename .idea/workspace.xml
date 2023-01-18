@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a0ef5ed-18d1-4e7a-b572-de8025df7626" name="Changes" comment="-">
+    <list default="true" id="3a0ef5ed-18d1-4e7a-b572-de8025df7626" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Probieren/ping_pong.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +35,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Discord Bots/discord_bots"
+    "last_opened_file_path": "D:/Pichelmayergasse Github/Informatik/Funnythings"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Pichelmayergasse Github\Informatik\Funnythings" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Pichelmayergasse Github\Informatik" />
     </key>

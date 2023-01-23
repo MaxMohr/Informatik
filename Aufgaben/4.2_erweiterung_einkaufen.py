@@ -5,4 +5,4 @@ einkaufsliste = zip(einkaufsliste_anzahl, einkaufsliste_gegenstaende)
 
 
 for anzahl, gegenstand in einkaufsliste:
-    print(f'Ich soll heute {anzahl}x {gegenstand} einkaufen gehen.')
+    print(f'Ich, {vorname}, soll heute {anzahl}x {gegenstand} einkaufen gehen.')
